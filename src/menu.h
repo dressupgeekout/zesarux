@@ -25,6 +25,8 @@
 #include <dirent.h>
 #if defined(__APPLE__)
         #include <sys/syslimits.h>
+#else
+        #include <limits.h>
 #endif
 
 
