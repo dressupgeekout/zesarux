@@ -1,11 +1,11 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 
 INSTALLPREFIX=`cat compileoptions.h |grep INSTALL_PREFIX|cut -d '"' -f2`
 
 
 cat > install.sh << _EOF
-#!/usr/bin/env bash
+#!/bin/bash
 
 echo "Installing ZEsarUX under $INSTALLPREFIX ..."
 
